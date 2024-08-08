@@ -1,0 +1,80 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f4;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+}
+
+.queue-container {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.card {
+  background-color: #fff;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  width: 300px;
+  padding: 15px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.engineer-photo {
+  border-radius: 50%;
+  width: 60px;
+  height: 60px;
+  object-fit: cover;
+  margin-right: 15px;
+}
+
+.engineer-info {
+  display: flex;
+  flex-direction: column;
+}
+
+.engineer-info h3 {
+  margin: 0;
+  font-size: 1.2em;
+  color: #333;
+}
+
+.status {
+  margin-top: 5px;
+  padding: 5px 10px;
+  border-radius: 5px;
+  font-size: 0.9em;
+  font-weight: bold;
+  color: #fff;
+}
+
+.online {
+  background-color: #4caf50; /* Green */
+}
+
+.on-break {
+  background-color: #ff9800; /* Orange */
+}
+
+.lunch {
+  background-color: #f44336; /* Red */
+}
+
+.ticket-count {
+  background-color: #f44336;
+  color: #fff;
+  padding: 10px;
+  border-radius: 50%;
+  width: 25px;
+  height: 25px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.2em;
+}
